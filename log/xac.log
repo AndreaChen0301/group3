@@ -1,0 +1,290 @@
+000 (249130.002.000) 2024-04-06 01:04:31 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (249130.002.000) 2024-04-06 01:05:34 Started transferring input files
+	Transferring to host: <128.105.69.179:9618?addrs=128.105.69.179-9618+[2607-f388-2200-100-1270-fdff-fe56-778c]-9618&alias=e2562.chtc.wisc.edu&noUDP&sock=slot1_103_1158732_4489_6289>
+...
+040 (249130.002.000) 2024-04-06 01:05:34 Finished transferring input files
+...
+001 (249130.002.000) 2024-04-06 01:05:35 Job executing on host: <128.105.69.179:9618?addrs=128.105.69.179-9618+[2607-f388-2200-100-1270-fdff-fe56-778c]-9618&alias=e2562.chtc.wisc.edu&noUDP&sock=startd_12718_1192>
+	SlotName: slot1_103@e2562.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2142101"
+	Cpus = 1
+	Disk = 2256768
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 1024
+...
+006 (249130.002.000) 2024-04-06 01:05:35 Image size of job updated: 1424
+	2  -  MemoryUsage of job (MB)
+	1140  -  ResidentSetSize of job (KB)
+...
+040 (249130.002.000) 2024-04-06 01:05:35 Started transferring output files
+...
+040 (249130.002.000) 2024-04-06 01:05:35 Finished transferring output files
+...
+005 (249130.002.000) 2024-04-06 01:05:35 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1065251  -  Run Bytes Sent By Job
+	1065310  -  Run Bytes Received By Job
+	1065251  -  Total Bytes Sent By Job
+	1065310  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :     2106  1048576   2256768 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        2     1024      1024 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2024-04-06T06:05:35Z with exit-code 0.
+...
+000 (249131.002.000) 2024-04-06 01:16:18 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+007 (249131.002.000) 2024-04-06 01:17:13 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+040 (249131.002.000) 2024-04-06 01:17:14 Started transferring input files
+	Transferring to host: <128.105.69.174:9618?addrs=128.105.69.174-9618+[2607-f388-2200-100-1270-fdff-fe56-74dc]-9618&alias=e2557.chtc.wisc.edu&noUDP&sock=slot1_149_3267901_a1f1_10491>
+...
+040 (249131.002.000) 2024-04-06 01:17:14 Finished transferring input files
+...
+001 (249131.002.000) 2024-04-06 01:17:15 Job executing on host: <128.105.69.174:9618?addrs=128.105.69.174-9618+[2607-f388-2200-100-1270-fdff-fe56-74dc]-9618&alias=e2557.chtc.wisc.edu&noUDP&sock=startd_12584_27e1>
+	SlotName: slot1_149@e2557.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_291267"
+	Cpus = 1
+	Disk = 2256768
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 1024
+...
+006 (249131.002.000) 2024-04-06 01:17:15 Image size of job updated: 2512
+	1  -  MemoryUsage of job (MB)
+	440  -  ResidentSetSize of job (KB)
+...
+040 (249131.002.000) 2024-04-06 01:17:15 Started transferring output files
+...
+040 (249131.002.000) 2024-04-06 01:17:15 Finished transferring output files
+...
+005 (249131.002.000) 2024-04-06 01:17:15 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	131108  -  Run Bytes Sent By Job
+	1065400  -  Run Bytes Received By Job
+	131108  -  Total Bytes Sent By Job
+	1065400  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :     1194  1048576   2256768 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     1024      1024 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        1                    
+
+	Job terminated of its own accord at 2024-04-06T06:17:15Z with exit-code 0.
+...
+000 (249132.002.000) 2024-04-06 01:20:24 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+007 (249132.002.000) 2024-04-06 01:20:41 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (249132.002.000) 2024-04-06 01:20:48 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (249132.002.000) 2024-04-06 01:20:56 Shadow exception!
+	Error from slot1_43@e4005.chtc.wisc.edu: Assertion ERROR on (lvm_setup_successful)
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+040 (249132.002.000) 2024-04-06 01:21:50 Started transferring input files
+	Transferring to host: <128.105.69.206:9618?addrs=128.105.69.206-9618+[2607-f388-2200-100-eaeb-d3ff-fe40-2844]-9618&alias=e2589.chtc.wisc.edu&noUDP&sock=slot1_132_4166187_61e2_9043>
+...
+040 (249132.002.000) 2024-04-06 01:21:50 Finished transferring input files
+...
+001 (249132.002.000) 2024-04-06 01:21:51 Job executing on host: <128.105.69.206:9618?addrs=128.105.69.206-9618+[2607-f388-2200-100-eaeb-d3ff-fe40-2844]-9618&alias=e2589.chtc.wisc.edu&noUDP&sock=startd_12548_7678>
+	SlotName: slot1_132@e2589.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_555294"
+	Cpus = 1
+	Disk = 2507580
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 1024
+...
+006 (249132.002.000) 2024-04-06 01:21:51 Image size of job updated: 3332
+	2  -  MemoryUsage of job (MB)
+	1132  -  ResidentSetSize of job (KB)
+...
+040 (249132.002.000) 2024-04-06 01:21:51 Started transferring output files
+...
+040 (249132.002.000) 2024-04-06 01:21:51 Finished transferring output files
+...
+005 (249132.002.000) 2024-04-06 01:21:51 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	131108  -  Run Bytes Sent By Job
+	1065379  -  Run Bytes Received By Job
+	131108  -  Total Bytes Sent By Job
+	1065379  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     1185  1048576   2507580 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        2     1024      1024 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        1                    
+
+	Job terminated of its own accord at 2024-04-06T06:21:51Z with exit-code 0.
+...
+000 (249133.002.000) 2024-04-06 01:23:01 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (249133.002.000) 2024-04-06 01:24:08 Started transferring input files
+	Transferring to host: <128.105.69.178:9618?addrs=128.105.69.178-9618+[2607-f388-2200-100-1270-fdff-fe56-c31c]-9618&alias=e2561.chtc.wisc.edu&noUDP&sock=slot1_139_4123012_b066_10137>
+...
+040 (249133.002.000) 2024-04-06 01:24:08 Finished transferring input files
+...
+001 (249133.002.000) 2024-04-06 01:24:09 Job executing on host: <128.105.69.178:9618?addrs=128.105.69.178-9618+[2607-f388-2200-100-1270-fdff-fe56-c31c]-9618&alias=e2561.chtc.wisc.edu&noUDP&sock=startd_17335_f255>
+	SlotName: slot1_139@e2561.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_2067700"
+	Cpus = 1
+	Disk = 2256768
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 1024
+...
+006 (249133.002.000) 2024-04-06 01:24:09 Image size of job updated: 3432
+	2  -  MemoryUsage of job (MB)
+	1108  -  ResidentSetSize of job (KB)
+...
+040 (249133.002.000) 2024-04-06 01:24:09 Started transferring output files
+...
+040 (249133.002.000) 2024-04-06 01:24:09 Finished transferring output files
+...
+005 (249133.002.000) 2024-04-06 01:24:09 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	131108  -  Run Bytes Sent By Job
+	1065379  -  Run Bytes Received By Job
+	131108  -  Total Bytes Sent By Job
+	1065379  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     1185  1048576   2256768 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        2     1024      1024 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        3                    
+
+	Job terminated of its own accord at 2024-04-06T06:24:09Z with exit-code 0.
+...
+000 (249134.002.000) 2024-04-06 01:27:37 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (249134.002.000) 2024-04-06 01:27:39 Started transferring input files
+	Transferring to host: <128.105.69.122:9618?addrs=128.105.69.122-9618+[2607-f388-2200-100-1270-fdff-fe56-c8bc]-9618&alias=e4071.chtc.wisc.edu&noUDP&sock=slot1_89_1820249_d67d_10435>
+...
+040 (249134.002.000) 2024-04-06 01:27:39 Finished transferring input files
+...
+001 (249134.002.000) 2024-04-06 01:27:40 Job executing on host: <128.105.69.122:9618?addrs=128.105.69.122-9618+[2607-f388-2200-100-1270-fdff-fe56-c8bc]-9618&alias=e4071.chtc.wisc.edu&noUDP&sock=startd_747965_5afc>
+	SlotName: slot1_89@e4071.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_1322662"
+	Cpus = 1
+	Disk = 2256768
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 1024
+...
+006 (249134.002.000) 2024-04-06 01:27:40 Image size of job updated: 3376
+	2  -  MemoryUsage of job (MB)
+	1248  -  ResidentSetSize of job (KB)
+...
+040 (249134.002.000) 2024-04-06 01:27:40 Started transferring output files
+...
+040 (249134.002.000) 2024-04-06 01:27:40 Finished transferring output files
+...
+005 (249134.002.000) 2024-04-06 01:27:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	131108  -  Run Bytes Sent By Job
+	1065378  -  Run Bytes Received By Job
+	131108  -  Total Bytes Sent By Job
+	1065378  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :     1194  1048576   2256768 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        2     1024      1024 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        2                    
+
+	Job terminated of its own accord at 2024-04-06T06:27:40Z with exit-code 0.
+...
+000 (249135.002.000) 2024-04-06 01:38:04 Job submitted from host: <128.104.100.148:9618?addrs=128.104.100.148-9618+[2607-f388-107c-501-216-3eff-feb2-bc11]-9618&alias=learn.chtc.wisc.edu&noUDP&sock=schedd_1351356_64bc>
+...
+040 (249135.002.000) 2024-04-06 01:39:36 Started transferring input files
+	Transferring to host: <128.105.69.92:9618?addrs=128.105.69.92-9618+[2607-f388-2200-100-1270-fdff-fe56-689c]-9618&alias=e4003.chtc.wisc.edu&noUDP&sock=slot1_119_2922930_5b05_7345>
+...
+040 (249135.002.000) 2024-04-06 01:39:36 Finished transferring input files
+...
+001 (249135.002.000) 2024-04-06 01:39:37 Job executing on host: <128.105.69.92:9618?addrs=128.105.69.92-9618+[2607-f388-2200-100-1270-fdff-fe56-689c]-9618&alias=e4003.chtc.wisc.edu&noUDP&sock=startd_949623_f860>
+	SlotName: slot1_119@e4003.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot1/dir_342899"
+	Cpus = 1
+	Disk = 2316800
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 1024
+...
+006 (249135.002.000) 2024-04-06 01:39:37 Image size of job updated: 2980
+	1  -  MemoryUsage of job (MB)
+	436  -  ResidentSetSize of job (KB)
+...
+040 (249135.002.000) 2024-04-06 01:39:37 Started transferring output files
+...
+040 (249135.002.000) 2024-04-06 01:39:37 Finished transferring output files
+...
+005 (249135.002.000) 2024-04-06 01:39:37 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	131108  -  Run Bytes Sent By Job
+	1065378  -  Run Bytes Received By Job
+	131108  -  Total Bytes Sent By Job
+	1065378  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :     1169  1048576   2316800 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1     1024      1024 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        4                    
+
+	Job terminated of its own accord at 2024-04-06T06:39:37Z with exit-code 0.
+...

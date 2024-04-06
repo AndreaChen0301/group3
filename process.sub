@@ -1,0 +1,17 @@
+#!/bin/bash
+executable = sort.sh
+arguments = $(file) 
+transfer_input_files = $(file)
+should_transfer_files = yes
+when_to_transfer_output = ON_EXIT
+
+output = $(file).out
+error = error/$(file).err
+log = log/$(file).log
+#files=("xaa" "xab" "xac" "xad" "xae")
+
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
+queue file from shakespeare.list
+
