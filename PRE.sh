@@ -19,6 +19,8 @@ echo "shakespeare.txt created"
 if [[ -e "xaa" ]]; then
     echo "shakespeare already split into 5"
 else
-    split -n 5 shakespeare.txt
+    split -n 5 shakespeare.txt shakespeare_
     echo "shakespeare.txt split into 5 chunks"
+    ls shakespeare_* > shakespeare.list
+    echo "shakespeare.list created with name of 5 files"
 fi
