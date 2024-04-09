@@ -12,16 +12,13 @@ else
     tar -xf shakespeare.tar
     echo "shakespeare.tar created"
 fi
-if [[ -e "shakespeare.txt" ]]; then
-    echo "shakespeare.txt exists"
-else 
-    cat shakespeare * >  shakespeare.txt
-    echo "shakespeare.txt created"
-fi
+for dir in shakespeare/comedies shakespeare/histories shakespeare/poetry shakespeare/tragedies; do
+    cat "$dir"/*
+done > shakespeare.txt
+echo "shakespeare.txt created"
 if [[ -e "xaa" ]]; then
     echo "shakespeare already split into 5"
 else
     split -n 5 shakespeare.txt
     echo "shakespeare.txt split into 5 chunks"
 fi
-
