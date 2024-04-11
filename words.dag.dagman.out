@@ -1,0 +1,108 @@
+04/11/24 01:26:45.555 (D_ALWAYS) ******************************************************
+04/11/24 01:26:45.555 (D_ALWAYS) ** condor_scheduniv_exec.249413.0 (CONDOR_DAGMAN) STARTING UP
+04/11/24 01:26:45.555 (D_ALWAYS) ** /usr/bin/condor_dagman
+04/11/24 01:26:45.555 (D_ALWAYS) ** SubsystemInfo: name=DAGMAN type=DAGMAN(9) class=CLIENT(2)
+04/11/24 01:26:45.555 (D_ALWAYS) ** Configuration: subsystem:DAGMAN local:<NONE> class:CLIENT
+04/11/24 01:26:45.555 (D_ALWAYS) ** $CondorVersion: 23.6.0 2024-04-01 BuildID: 724493 PackageID: 23.6.0-0.724493 GitSHA: 8c633dba RC $
+04/11/24 01:26:45.555 (D_ALWAYS) ** $CondorPlatform: x86_64_CentOS7 $
+04/11/24 01:26:45.555 (D_ALWAYS) ** PID = 109720
+04/11/24 01:26:45.555 (D_ALWAYS) ** Log last touched time unavailable (No such file or directory)
+04/11/24 01:26:45.555 (D_ALWAYS) ******************************************************
+04/11/24 01:26:45.555 (D_ALWAYS) Using config source: /etc/condor/condor_config
+04/11/24 01:26:45.555 (D_ALWAYS) Using local config sources: 
+04/11/24 01:26:45.555 (D_ALWAYS)    /var/run/condor/pids.conf
+04/11/24 01:26:45.555 (D_ALWAYS)    /var/run/condor/master_pid_1351356.conf
+04/11/24 01:26:45.555 (D_ALWAYS)    /usr/share/condor/config.d/50-gratia-gwms.conf
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/condor_config.principals
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/condor_config.hosts
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/condor_config.global
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/condor_config.x86_64_CentOS7
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/condor_config.security
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/condor_config.puppet
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/hosts/learn.chtc.wisc.edu.local
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/include/schedd.conf
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/include/facility_wid.conf
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/include/oauth_credmon.conf
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/include/owned_by_chtc.conf
+04/11/24 01:26:45.555 (D_ALWAYS)    /var/run/condor/condor_config.startd_offline_gpus
+04/11/24 01:26:45.555 (D_ALWAYS)    /etc/condor/condor_config.flightworthy_testing
+04/11/24 01:26:45.555 (D_ALWAYS) config Macros = 369, Sorted = 369, StringBytes = 97400, TablesBytes = 13444
+04/11/24 01:26:45.555 (D_ALWAYS) CLASSAD_CACHING is ENABLED
+04/11/24 01:26:45.555 (D_ALWAYS) Daemon Log is logging: D_ALWAYS D_ERROR D_STATUS
+04/11/24 01:26:45.555 (D_ALWAYS) DaemonCore: No command port requested.
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_USE_STRICT setting: 1
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_VERBOSITY setting: 3
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_DEBUG_CACHE_ENABLE setting: False
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_SUBMIT_DELAY setting: 0
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_STARTUP_CYCLE_DETECT setting: False
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 100
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_AGGRESSIVE_SUBMIT setting: False
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_QUEUE_UPDATE_INTERVAL setting: 300
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_DEFAULT_PRIORITY setting: 0
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_SUPPRESS_NOTIFICATION setting: False
+04/11/24 01:26:45.560 (D_ALWAYS) allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_RETRY_SUBMIT_FIRST setting: True
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_RETRY_NODE_FIRST setting: False
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_MAX_JOBS_IDLE setting: 1000
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_MAX_PRE_SCRIPTS setting: 20
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_MAX_POST_SCRIPTS setting: 20
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_MAX_HOLD_SCRIPTS setting: 20
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_MUNGE_NODE_NAMES setting: True
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_ALWAYS_RUN_POST setting: False
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_CONDOR_SUBMIT_EXE setting: /usr/bin/condor_submit
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_USE_DIRECT_SUBMIT setting: True
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_DEFAULT_APPEND_VARS setting: False
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_ABORT_DUPLICATES setting: True
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_AUTO_RESCUE setting: True
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_MAX_RESCUE_NUM setting: 100
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_MAX_JOB_HOLDS setting: 100
+04/11/24 01:26:45.560 (D_ALWAYS) DAGMAN_HOLD_CLAIM_TIME setting: 20
+04/11/24 01:26:45.561 (D_ALWAYS) ALL_DEBUG setting: D_CAT D_SUB_SECOND
+04/11/24 01:26:45.561 (D_ALWAYS) DAGMAN_DEBUG setting: 
+04/11/24 01:26:45.561 (D_ALWAYS) DAGMAN_SUPPRESS_JOB_LOGS setting: False
+04/11/24 01:26:45.561 (D_ALWAYS) DAGMAN_REMOVE_NODE_JOBS setting: True
+04/11/24 01:26:45.561 (D_ALWAYS) DAGMAN will adjust edges after parsing
+04/11/24 01:26:45.562 (D_ALWAYS) argv[0] == "condor_scheduniv_exec.249413.0"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[1] == "-Lockfile"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[2] == "words.dag.lock"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[3] == "-Dag"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[4] == "words.dag"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[5] == "-CsdVersion"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[6] == "$CondorVersion: 23.6.0 2024-04-01 BuildID: 724493 PackageID: 23.6.0-0.724493 GitSHA: 8c633dba RC $"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[7] == "-dagman"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[8] == "/usr/bin/condor_dagman"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[9] == "-AutoRescue"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[10] == "1"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[11] == "-DoRescueFrom"
+04/11/24 01:26:45.562 (D_ALWAYS) argv[12] == "0"
+04/11/24 01:26:45.563 (D_ALWAYS) Can't open directory "/etc/condor/passwords.d" as PRIV_ROOT, errno: 13 (Permission denied)
+04/11/24 01:26:45.563 (D_ALWAYS) Can't open directory "/etc/condor/passwords.d" as PRIV_ROOT, errno: 13 (Permission denied)
+04/11/24 01:26:46.521 (D_ALWAYS) Workflow batch-id: <249413.0>
+04/11/24 01:26:46.524 (D_ALWAYS) Workflow batch-name: <words.dag+249413>
+04/11/24 01:26:46.526 (D_ALWAYS) Workflow accounting_group: <>
+04/11/24 01:26:46.527 (D_ALWAYS) Workflow accounting_group_user: <>
+04/11/24 01:26:46.529 (D_ALWAYS) Warning: failed to get attribute DAGNodeName
+04/11/24 01:26:46.529 (D_ALWAYS) DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+04/11/24 01:26:46.529 (D_ALWAYS) Default node log file is: </home/linmaneechot/group3/./words.dag.nodes.log>
+04/11/24 01:26:46.529 (D_ALWAYS) DAG Lockfile will be written to words.dag.lock
+04/11/24 01:26:46.529 (D_ALWAYS) DAG Input file is words.dag
+04/11/24 01:26:46.530 (D_ALWAYS) Parsing 1 dagfiles
+04/11/24 01:26:46.530 (D_ALWAYS) Parsing words.dag ...
+04/11/24 01:26:46.530 (D_ALWAYS) ERROR: job 2 not found!
+04/11/24 01:26:46.530 (D_ALWAYS) ERROR: words.dag (line 7): Unknown Job 2
+04/11/24 01:26:46.530 (D_ALWAYS) Removing any/all submitted HTCondor jobs...
+04/11/24 01:26:46.530 (D_ALWAYS) Running: /usr/bin/condor_rm -const DAGManJobId==249413 -reason Startup' 'Error:' 'DAGMan' 'failed' 'to' 'parse' 'DAG' 'file' '(words.dag).' 'Was' 'likely' 'in' 'recovery' 'mode.
+04/11/24 01:26:46.729 (D_ALWAYS) Disabling log line cache.
+04/11/24 01:26:46.729 (D_ERROR) Failed to parse words.dag
+04/11/24 01:26:46.729 (D_ALWAYS) **** condor_scheduniv_exec.249413.0 (condor_DAGMAN) pid 109720 EXITING WITH STATUS 1
