@@ -1,0 +1,6 @@
+job 1 process.sub
+job 2 child.sub
+
+script pre 1 PRE.sh
+
+parent 1 child 2
