@@ -2,11 +2,4 @@ job 1 process.sub
 
 script pre 1 PRE.sh
 
-script post 1 sort.sh
-
-script post 2 POST.sh
-
-
-
-
-
+script post 1 POST.sh
