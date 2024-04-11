@@ -1,0 +1,10 @@
+executable = POST.sh
+transfer_input_files = shakespeare_aa_sorted, shakespeare_ab_sorted, shakespeare_ac_sorted, shakespeare_ad_sorted, shakespeare_ae_sorted
+should_transfer_files = yes
+when_to_transfer_output = ON_EXIT
+
+request_cpus = 1
+request_memory = 1GB
+request_disk = 1GB
+queue
+
